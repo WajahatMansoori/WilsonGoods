@@ -1,0 +1,138 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>WilSon Sports Good</title>
+<link rel="icon" type="image/jpg" href="images/log3.jpg">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
+
+<script src="jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+
+<script>
+var price= $(".prices").attr("data_value");
+var i=0;
+
+function shopshoes()
+{
+i++;
+document.getElementById("price").innerHTML="Total price"+":"+" " + i*30
+}
+
+</script>
+
+<script>
+var price= $(".prices1").attr("data_value");
+var i=0;
+
+function nikered()
+{
+i++;
+document.getElementById("price").innerHTML="Total price" + ":"+" " + i*39
+}
+</script>
+
+
+
+<div class="container mt-3">
+<table border="1" class="table"  style="background: #00CCFF">
+<tr>
+<td class="text-center">
+<p id="price">Total price = 0</p>
+</td>
+<td class="text-center">
+<p id="select" >Selected Item = 0</p>
+</td>
+</tr>
+
+</table>
+</div>
+<div class="container mt-1">
+<table border="1" width="700" class="table table-bordered table-hover">
+<tr>
+<td class="text-center"style="background: #CCCCCC"><b>SNO.</b></td>
+<td class="text-center"style="background: #CCCCCC"><b>Product Name</b></td>
+<td class="text-center"style="background: #CCCCCC"><b>Product Image</b></td>
+<td class="text-center"style="background: #CCCCCC"><b>Product Price</b></td>
+<td class="text-center"style="background: #CCCCCC"><b>Online Purchase</b></td>
+
+</tr>
+
+<tr>
+<td class="text-center"style="background: #CCCCCC"><br><br>1</td>
+<td class="text-center"style="background: #CCCCCC"><br><br>Nike Sports Shoes</td>
+<td class="text-center"><img src="images/Nike Shoes/nikeshoes03.jpg" class="img-responsive  col-xs-8 h-10 w-50 "></td>
+
+<td class="text-center"style="background: #CCCCCC"><br><br><p style="text-decoration: line-through; color:#FF0000"><b>$35</b></p>
+<b><p class="prices" data_value="30">$30</p></b></td>
+
+<td class="text-center"style="background: #CCCCCC">
+<br><br>
+<button class="btn btn-primary" onClick="shopshoes();">  Add to cart</button>
+</td>
+</tr>
+
+<tr>
+<td class="text-center"style="background: #CCCCCC"><br><br>2</td>
+<td class="text-center"style="background: #CCCCCC"><br><br>Nike Sports Shoes</td>
+<td class="text-center">
+<img src="images/Nike Shoes/nikeshoes01.jpg" class="img-responsive  col-xs-8 h-10 w-50 "></td>
+<td class="text-center"style="background: #CCCCCC"><br><br><p style="text-decoration:line-through; color:#FF0000;"><b>$41</b></p>
+<b><p class="prices1" data_value="39">$35</b></td>
+
+<td class="text-center"style="background: #CCCCCC">
+<br><br>
+<button class="btn btn-primary" onClick="nikered();">  Add to cart</button>
+</td>
+</tr>
+<tr>
+<td class="text-center "style="background: #CCCCCC"><br><br>3</td>
+<td class="text-center" style="background: #CCCCCC"><br><br>Basketball Shoes</td>
+<td class="text-center"> <img src="images/Men basketball shoes/men basketball shoes6.png" class="img-responsive  col-md-8 h-10 w-50 "></td>
+<td class="text-center" style="background: #CCCCCC"><b>
+<br><br>
+<p style="text-decoration:line-through; color:#FF0000">$56</p>
+<p>$48</p></b></td>
+
+<td class="text-center"style="background: #CCCCCC">
+<br><br>
+<button class="btn btn-primary">  Add to cart</button>
+</td>
+
+</tr>
+<tr>
+<td class="text-center " style="background: #CCCCCC"><br><br>4</td>
+<td class="text-center" style="background: #CCCCCC"><br><br>Basketball Shoes</td>
+<td class="text-center"> <img src="images/Men basketball shoes/men basketball shoes5.png" class="img-responsive  col-md-8 h-10 w-50 "></td>
+<td class="text-center"style="background: #CCCCCC"><b>
+<br><br>
+<p style="text-decoration:line-through; color:#FF0000">$52</p>
+<p>$44</p></b></td>
+<td class="text-center"style="background: #CCCCCC">
+<br><br>
+<button class="btn btn-primary">  Add to cart</button>
+</td>
+
+</tr>
+
+</table>
+</div>
+
+</body>
+</html>
